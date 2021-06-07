@@ -38,12 +38,13 @@ body{
     background-color: rgb(106, 195, 223);
 }
 img{
-    width: 500px;
-    height: 300px;
+    width: 700px;
+    height: 350px;
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 main{
@@ -51,6 +52,7 @@ main{
     margin-left: 1cm;
     margin-right: 1cm;
     padding: 10px;
+    line-height: 30px;
 }
     
 #Oque{
@@ -85,7 +87,6 @@ h3{
 }
 #EuropaLeague:hover{
     cursor: pointer;
-    border-bottom: 2px solid rgb(163, 203, 230);
     font-size: 28px;
     transition: linear 1s 0.5s;
 }
