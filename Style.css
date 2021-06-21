@@ -4,6 +4,36 @@ h1{
     color:rebeccapurple;
     font-family: fantasy;
 }
+h1{
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-direction:normal;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes titulo{
+    0%{
+        color: rgb(255, 255, 255);
+        transform: scale(0.2)rotate(0deg);
+    }
+    25%{
+        color: rgb(189, 155, 223);
+        transform: scale(0.4)rotate(-90deg);
+    }
+    50%{
+        color: rgb(169, 122, 216);
+        transform: scale(0.6)rotate(-180deg);
+    }
+    75%{
+        color: rgb(120, 19, 221);
+        transform: scale(0.8)rotate(-270deg);
+    }
+    100%{
+        color: rebeccapurple;
+        transform: scale(1) rotate(-360deg);
+    }
+} 
 header{
     background-color:rgb(250, 191, 230);
     margin-left: -8px;
