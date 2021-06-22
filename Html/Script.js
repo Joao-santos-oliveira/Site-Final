@@ -66,7 +66,7 @@ function botao(){
         oi.innerHTML = 'O campeão da Champions de 2018 foi o Real Madrid!'
     } 
     else if (ano.value==='2019'){
-        oi.innerHTML = 'O campeão da Champions de 2000 foi o Liverpool!'
+        oi.innerHTML = 'O campeão da Champions de 2019 foi o Liverpool!'
     } 
     else if (ano.value==='2020'){
         oi.innerHTML = 'O campeão da Champions de 2020 foi o Bayern de Munique!'
