@@ -67,7 +67,7 @@ nav ul li a:hover{
 body{
     background-color: rgb(106, 195, 223);
 }
-img{
+.imagens{
     width: 700px;
     height: 350px;
     display: block;
@@ -136,4 +136,5 @@ footer{
     height: 50px;
     float: left;
     display: flex;
+    margin: 5px;
 }

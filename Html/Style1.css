@@ -164,5 +164,6 @@ section{
     height: 50px;
     float: left;
     display: flex;
+    margin: 5px;
 }
 
