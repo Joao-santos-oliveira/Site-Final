@@ -73,6 +73,39 @@ main{
     margin-right: 1cm;
     padding: 10px;
 }
+#informaçoes{
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+} 
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34, 34, 34);
+    font-size: 23px;
+    margin: 32px;
+    text-align: justify;
+}
+img{
+    width: 900px;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+    background-color: coral;
+    color:black;
+    font-family:serif;
+    font-size: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 20px;
+    margin-bottom: -0.5cm;
+}
 h2{
     font-size: 22px;
     color: rgb(255, 255, 255);
@@ -96,7 +129,7 @@ input{
     background-color: whitesmoke;
     border: black solid 1px;
 }
-h4{
+h5{
     border-top: solid black 5px;
 }
 h3{
@@ -117,7 +150,15 @@ label{
     text-align: center;
     margin-top: -40px;
     margin-right: 40px;
+    border-radius: 3em;
 }
 section{
     margin-left: 12px;
 }
+#inicio{
+    width: 70px;
+    height: 50px;
+    float: left;
+    display: flex;
+}
+
